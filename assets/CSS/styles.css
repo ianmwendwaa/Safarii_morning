@@ -1,0 +1,22 @@
+table{
+  width: 100%;
+  font-family: "Century Schoolbook L";
+  border-collapse: collapse;
+  text-align: center;
+}
+td,th{
+  border: 2px solid black;
+  padding: 10px;
+}
+td{
+  background-color: rebeccapurple;
+  color: #f2f2f2f2;
+}
+th{
+  color:deeppink;
+  background-color: aqua;
+}
+h2{
+  text-align: center;
+  font-family: "Century Schoolbook L";
+}

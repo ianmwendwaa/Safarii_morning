@@ -1,0 +1,53 @@
+.matunda{
+  border: solid 3px black;
+  background-color: mediumturquoise;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+  background-image: url("../images/mango.jpeg");
+}
+.fruits{
+  border: solid 3px orange;
+  background-color: mediumturquoise;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+  background-image: url("../images/orange.jpeg");
+}
+.cars{
+  border: dotted 5px black;
+  background-color: green;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+  background-image: url("../images/nissan1.png");
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.FRUITS{
+  border: solid 3px rebeccapurple;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+  background-image: url("../images/grapes.jpeg");
+}
+#Computers{
+  border: solid 3px black;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+  background-image: url("../images/hp.png");
+}
+#Music{
+  background-image:url("../images/music.png");
+  border: solid 3px black;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Century Schoolbook L";
+}

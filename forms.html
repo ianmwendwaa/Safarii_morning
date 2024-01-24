@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script></script>
+  <style>
+    body{
+      background-color: white;
+      border:dotted 5px ;
+      align-content: center;
+    }
+    div{
+      margin-bottom: 10px;
+    }
+    label{
+      display:inline-block;
+      width: 200px;
+      text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/CSS/formstyles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<body>
+<h2> Reg Form</h2>
+<hr>
+<form action="/forms/submit" method="post">
+  <div>
+  <label style="color:black" for="FName"><b>First Name</b></label>
+  <input type="text"id="FName"  name="jina1" placeholder="Enter first name"><br>
+    </div>
+
+  <div>
+  <label style="color:black" for="LName"><b>Last Name</b></label>
+  <input type="text"id="LName"  name="jina2"placeholder="Enter last name"><br>
+    </div>
+
+  <div>
+  <label style="color:black"for="Email"><b>Email Address</b></label>
+  <input type="email"id="Email" name="baruapepe" placeholder="Input Email"><br>
+    </div>
+
+  <div>
+  <label style="color:black" for="DOB"><b>Date Of Birth</b></label>
+  <input type="date"id="DOB" name="tarehe" placeholder="Input Date of Birth"><br>
+       <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female"name="gender">
+
+    <label for="custom">Custom</label>
+    <input type="radio" id="custom" name="gender">
+
+    </div>
+  <label for="course"><b>Course Taken</b></label>
+  <select name="" id="course">
+    <option value="full">Fullstack</option>
+    <option value="js">React js</option>
+    <option value="django">Django</option>
+    <option value="and">Android</option>
+    <option value="kot">Kotlin</option>
+    <option value="ang">Angular</option>
+  </select><br><br>
+  <div>
+  <label style="color:black"for="pass"><b>Password</b></label>
+  <input type="password" id="pass"  name="neno la siri"><br>
+    </div>
+  <label for="upload image"></label>
+  <input type="file"id="upload image" name="mamboto"><br><br><br>
+
+   <div>
+  <input type="submit" value="Register">
+   </div>
+</form>
+
+</body>
+</html>
